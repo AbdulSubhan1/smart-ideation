@@ -18,7 +18,7 @@ import CountUp from "react-countup";
 // import { Link as Link2 } from "react-router-dom";
 import * as Icon from "react-feather";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+//ya files hain or bss ak yahi page ha idhar edit karna pare ga direact
 import Pricing from "../../components/Pricing";
 import News from "../../components/News";
 import Contact from "../../components/Contact";
@@ -299,12 +299,10 @@ class Startup extends Component {
                       <div className="col-12">
                         <div className="title-heading text-center">
                           <h1 className="display-5 text-white title-dark fw-bold mb-4">
-                            Business Planning, Strategies <br /> and Execution
+                          Welcome to  <br /> Smart Ideation
                           </h1>
                           <p className="para-desc mx-auto text-white-50">
-                            Launch your campaign and benefit from our expertise
-                            on designing and managing conversion centered
-                            bootstrap v5 html page.
+                          At Smart Ideation, we are dedicated to revolutionizing the world of technology through innovative software solutions and top-notch IT services
                           </p>
 
                           <div className="mt-4 pt-2">
@@ -335,12 +333,10 @@ class Startup extends Component {
                       <div className="col-12">
                         <div className="title-heading text-center">
                           <h1 className="display-5 text-white title-dark fw-bold mb-4">
-                            Financial Projections And Analysis <br /> Marketing
+                          Your Trusted Partner in <br /> Software and IT Services
                           </h1>
                           <p className="para-desc mx-auto text-white-50">
-                            Launch your campaign and benefit from our expertise
-                            on designing and managing conversion centered
-                            bootstrap v5 html page.
+                          With a passionate team of experts, we embark on a journey to transform your digital dreams into reality.
                           </p>
 
                           <div className="mt-4 pt-2">
@@ -371,12 +367,11 @@ class Startup extends Component {
                       <div className="col-12">
                         <div className="title-heading text-center">
                           <h1 className="display-5 text-white title-dark fw-bold mb-4">
-                            International Business <br /> Opportunities
+                          Your Reliable Companion for <br />Cutting-Edge Software Solution
                           </h1>
                           <p className="para-desc mx-auto text-white-50">
-                            Launch your campaign and benefit from our expertise
-                            on designing and managing conversion centered
-                            bootstrap v5 html page.
+                          Explore our services, meet our team, and discover how we can help you achieve your goals.
+
                           </p>
 
                           <div className="mt-4 pt-2">
@@ -403,13 +398,12 @@ class Startup extends Component {
                       <div className="col-lg-4 col-md-6">
                         <div className="d-flex features feature-primary">
                           <div className="feature-icon text-center">
-                            <i className="mdi mdi-language-php rounded h4"></i>
+                            <i className="mdi mdi-web rounded h4"></i>
                           </div>
                           <div className="flex-1 ms-3">
-                            <h5 className="mt-0">Financial Planning</h5>
+                            <h5 className="mt-0">Web Development</h5>
                             <p className="text-muted mb-0">
-                              Horem ipsum dolor consectetuer Lorem simply dummy
-                              orem commo.
+                            Crafting innovative web solutions for businesses
                             </p>
                           </div>
                         </div>
@@ -418,13 +412,12 @@ class Startup extends Component {
                       <div className="col-lg-4 col-md-6 mt-4 pt-4 mt-sm-0 pt-sm-0">
                         <div className="d-flex features feature-primary">
                           <div className="feature-icon text-center">
-                            <i className="mdi mdi-file-image rounded h4"></i>
+                            <i className="mdi mdi-cellphone rounded h4"></i>
                           </div>
                           <div className="flex-1 ms-3">
-                            <h5 className="mt-0">Quality Resourcing</h5>
+                            <h5 className="mt-0">Mobile App Development </h5>
                             <p className="text-muted mb-0">
-                              When an unknown printer took a galley of type and
-                              scrambled it.
+                              Leading mobile app solutions for businesses.
                             </p>
                           </div>
                         </div>
@@ -433,13 +426,12 @@ class Startup extends Component {
                       <div className="col-lg-4 col-md-6 mt-4 pt-4 mt-lg-0 pt-lg-0">
                         <div className="d-flex features feature-primary">
                           <div className="feature-icon text-center">
-                            <i className="mdi mdi-camera-outline rounded h4"></i>
+                            <i className="mdi mdi-vector-square rounded h4"></i>
                           </div>
                           <div className="flex-1 ms-3">
-                            <h5 className="mt-0">Business Services</h5>
+                            <h5 className="mt-0">UI/UX Design</h5>
                             <p className="text-muted mb-0">
-                              It has survived not only five centuries but leap
-                              in typesetting.
+                            Intuitive UI/UX design elevating user experiences
                             </p>
                           </div>
                         </div>
@@ -448,13 +440,12 @@ class Startup extends Component {
                       <div className="col-lg-4 col-md-6 mt-4 pt-4">
                         <div className="d-flex features feature-primary">
                           <div className="feature-icon text-center">
-                            <i className="mdi mdi-google rounded h4"></i>
+                            <i className="mdi mdi-palette rounded h4"></i>
                           </div>
                           <div className="flex-1 ms-3">
-                            <h5 className="mt-0">Software And Research</h5>
+                            <h5 className="mt-0">Graphic Design</h5>
                             <p className="text-muted mb-0">
-                              It was popularised with the release of Letraset
-                              sheets sit amet.
+                            Creative graphic design shaping visual narratives.
                             </p>
                           </div>
                         </div>
@@ -463,13 +454,12 @@ class Startup extends Component {
                       <div className="col-lg-4 col-md-6 mt-4 pt-4">
                         <div className="d-flex features feature-primary">
                           <div className="feature-icon text-center">
-                            <i className="mdi mdi-source-commit rounded h4"></i>
+                            <i className="mdi mdi-cart rounded h4"></i>
                           </div>
                           <div className="flex-1 ms-3">
-                            <h5 className="mt-0">Travel And Aviation</h5>
+                            <h5 className="mt-0">E-commerce</h5>
                             <p className="text-muted mb-0">
-                              It is a long established fact that a reader will
-                              be distracted.
+                            Transforming commerce online with seamless e-commerce solutions
                             </p>
                           </div>
                         </div>
@@ -478,13 +468,12 @@ class Startup extends Component {
                       <div className="col-lg-4 col-md-6 mt-4 pt-4">
                         <div className="d-flex features feature-primary">
                           <div className="feature-icon text-center">
-                            <i className="mdi mdi-code-tags rounded h4"></i>
+                            <i className="mdi mdi-bullhorn rounded h4"></i>
                           </div>
                           <div className="flex-1 ms-3">
-                            <h5 className="mt-0">Healthcare Services</h5>
+                            <h5 className="mt-0">Digital Marketing</h5>
                             <p className="text-muted mb-0">
-                              A point of using lorem ipsum is that it has normal
-                              distribution.
+                            Strategic digital marketing driving online success.
                             </p>
                           </div>
                         </div>
@@ -522,15 +511,10 @@ class Startup extends Component {
                   <div className="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
                     <div className="section-title">
                       <h4 className="title mb-3">
-                        Right Solutions Give You A <br /> Hassle Free Business
+                      Empowering Your Digital  <br /> Vision with Innovation
                       </h4>
                       <p className="text-muted">
-                        This prevents repetitive patterns from impairing the
-                        overall visual impression and facilitates the comparison
-                        of different typefaces. Furthermore, it is advantageous
-                        when the dummy text is relatively realistic so that the
-                        layout impression of the final publication is not
-                        compromised.
+                      Welcome to Smart  Ideation, where innovation meets technology to propel your digital dreams into reality. As a dynamic and forward-thinking startup, we are on a mission to revolutionize the software and IT services landscape. Our journey began in 2023, driven by a relentless passion for creativity, technology, and problem-solving
                       </p>
                       <ul className="list-unstyled text-muted">
                         <li className="mb-1">
@@ -676,11 +660,9 @@ class Startup extends Component {
               <Row className="justify-content-center">
                 <div className="col-12">
                   <div className="section-title text-center mb-4 pb-2">
-                    <h4 className="title mb-3">Our Mind Power</h4>
+                    <h4 className="title mb-3">Meet the Minds Behind Smart  Ideation</h4>
                     <p className="para-desc mx-auto text-muted mb-0">
-                      Launch your campaign and benefit from our expertise on
-                      designing and managing conversion centered bootstrap v5
-                      html page.
+                    Our journey wouldn't be possible without the dedication and expertise of our talented team. With a diverse group of professionals who share a common passion for technology, we bring a wealth of experience and creativity to every project
                     </p>
                   </div>
                 </div>
@@ -707,11 +689,10 @@ class Startup extends Component {
                     <div className="row justify-content-center">
                       <div className="col-12">
                         <div className="section-title text-center text-md-start mb-4 pb-2">
-                          <h4 className="title mb-3">Work Process</h4>
+                          <h4 className="title mb-3">What Sets Us Apart</h4>
                           <p className="para-desc text-muted mx-auto mb-0">
-                            Launch your campaign and benefit from our expertise
-                            on designing and managing conversion centered
-                            bootstrap v5 html page.
+                          Innovation, Quality, and Customer-Centricity
+                          Smart  Ideation stands out in the industry for several key reasons
                           </p>
                         </div>
                       </div>
@@ -726,10 +707,10 @@ class Startup extends Component {
 
                           <div className="content flex-1 ms-3">
                             <a to="#" className="title h5 text-dark">
-                              Concept
+                            Innovation
                             </a>
                             <p className="text-muted mt-2 mb-0">
-                              This prevents repetitive impairing the overall
+                            This prevents repetitive impairing the overall
                               facilitates the comparison.
                             </p>
                           </div>
@@ -744,11 +725,11 @@ class Startup extends Component {
 
                           <div className="content flex-1 ms-3">
                             <a to="#" className="title h5 text-dark">
-                              Development
+                              Quality
                             </a>
                             <p className="text-muted mt-2 mb-0">
-                              This prevents repetitive impairing the overall
-                              facilitates the comparison.
+                            We are uncompromising when it comes to quality. Our rigorous testing and quality assurance processes ensure that our solutions are robust.
+
                             </p>
                           </div>
                         </div>
@@ -762,11 +743,10 @@ class Startup extends Component {
 
                           <div className="content flex-1 ms-3">
                             <a to="#" className="title h5 text-dark">
-                              Live Demo
+                            Customer-Centricity
                             </a>
                             <p className="text-muted mt-2 mb-0">
-                              This prevents repetitive impairing the overall
-                              facilitates the comparison.
+                            Your business needs are our top priority. We take the time to understand your challenges and objectives.
                             </p>
                           </div>
                         </div>
