@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Col, Container, Card, Row } from "reactstrap";
 import { Link } from "react-router-dom";
 
-import Feature1 from "../assets/images/1.png";
-import Feature2 from "../assets/images/2.png";
+// import Feature1 from "../../assets/images/bg/1.jpg";
+// import Feature2 from "../../assets/images/bg/2.jpg";
 
 class Feature extends Component {
   constructor(props) {
@@ -12,45 +12,24 @@ class Feature extends Component {
       services: [
         {
           id: "service1",
-          icon: "airplay",
-          title: "Design & Development",
+          icon: "ballot-recount-outline",
+          title: "Enterprise Resource Planning",
           description:
-            "Various versions have evolved over the years, sometimes by on purpose injected humour and the like.",
+            "Enhance organizational efficiency and decision-making with our comprehensive ERP solutions.",
         },
         {
           id: "service2",
-          icon: "circle-layer",
-          title: "Management & Marketing",
+          icon: "cast-variant",
+          title: "Field-Force Management System",
           description:
-            "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est",
+            "Optimize field operations for increased efficiency and customer satisfaction.",
         },
         {
           id: "service3",
-          icon: "fire",
-          title: "Stratagy & Research",
+          icon: "dolly",
+          title: "Supply Chain Management System",
           description:
-            "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias",
-        },
-        {
-          id: "service4",
-          icon: "flip-h",
-          title: "Easy To Use",
-          description:
-            "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-        },
-        {
-          id: "service5",
-          icon: "mountains",
-          title: "Daily Reports",
-          description:
-            "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain",
-        },
-        {
-          id: "service6",
-          icon: "wind",
-          title: "Real Time Zone",
-          description:
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "Streamline your supply chain processes for cost savings and improved delivery times.",
         },
       ],
     };
@@ -60,12 +39,12 @@ class Feature extends Component {
     return (
       <React.Fragment>
         {/*  Services START  */}
-        <section className="section" id="features">
+        <section className="section pb-0" id="project">
           <Container>
             <Row className="justify-content-center">
               <div className="col-12">
                 <div className="section-title text-center mb-4 pb-2">
-                  <h3 className="title mb-3">Our Features</h3>
+                  <h3 className="title mb-3">Our Products</h3>
                   <p className="text-muted mx-auto para-desc mb-0">
                     Launch your campaign and benefit from our expertise on
                     designing and managing conversion centered bootstrap v5 html
@@ -80,25 +59,34 @@ class Feature extends Component {
                 <Col lg={4} md={6} className="mt-5 pt-4" key={key}>
                   <Card className="features feature-primary feature-shadow-md shadow rounded p-4 pt-5">
                     <div className="icon-style mt-n80 position-relative text-center shadow rounded bg-white mb-4">
-                      <i className={"h4 mb-0 uil uil-" + item.icon}></i>
+                      <i className={"h4 mb-0 mdi mdi-" + item.icon}></i>
                     </div>
                     <div className="content">
                       <Link to="#" className="title text-dark h5">
                         {item.title}
                       </Link>
                       <p className="text-muted mt-3">{item.description}</p>
-                      <Link to="#" className="text-dark title">
-                        Read More <i className="uil uil-arrow-right"></i>{" "}
-                      </Link>
+                      {/* <Link to="#" className="text-dark title">
+                        Find More <i className="mdi mdi-arrow-right"></i>{" "}
+                      </Link> */}
                     </div>
                   </Card>
                 </Col>
               ))}
             </Row>
+            <Row>
+              <Col className="text-center">
+                <div className="mt-2 pt-2">
+                  <a to="#" className="btn btn-primary">
+                    Explore <i className="mdi mdi-arrow-right"></i>
+                  </a>
+                </div>
+              </Col>
+            </Row>
           </Container>
 
           <Container className="mt-100 mt-60">
-            <Row>
+            {/* <Row>
               <Col lg={5}>
                 <div className="section-title">
                   <h4 className="section-title mb-3 mb-lg-0">
@@ -114,10 +102,10 @@ class Feature extends Component {
                   page.
                 </p>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
 
-          <Container className="mt-100 mt-60">
+          {/* <Container className="mt-100 mt-60">
             <Row className="align-items-center">
               <Col lg={6} md={6}>
                 <img
@@ -158,9 +146,9 @@ class Feature extends Component {
                 </div>
               </Col>
             </Row>
-          </Container>
+          </Container> */}
 
-          <Container className="mt-100 mt-60">
+          {/* <Container className="mt-100 mt-60">
             <Row className="align-items-center">
               <Col
                 lg={6}
@@ -205,7 +193,7 @@ class Feature extends Component {
                 />
               </Col>
             </Row>
-          </Container>
+          </Container> */}
         </section>
       </React.Fragment>
     );

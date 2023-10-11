@@ -19,10 +19,11 @@ import CountUp from "react-countup";
 import * as Icon from "react-feather";
 import { Swiper, SwiperSlide } from "swiper/react";
 //ya files hain or bss ak yahi page ha idhar edit karna pare ga direact
-import Pricing from "../../components/Pricing";
-import News from "../../components/News";
+// import Pricing from "../../components/Pricing";
+import Pricing from "../../components/Feature";
+// import News from "../../components/News";
 import Contact from "../../components/Contact";
-import AgencyProject from "../../components/AgencyProject";
+// import AgencyProject from "../../components/AgencyProject";
 
 import SwiperCore from "swiper";
 import { Autoplay, Navigation } from "swiper/modules";
@@ -53,6 +54,7 @@ import Client1 from "../../assets/images/client/01.jpg";
 import Client2 from "../../assets/images/client/02.jpg";
 import Client3 from "../../assets/images/client/03.jpg";
 import Client4 from "../../assets/images/client/04.jpg";
+import Review from "../../components/Review";
 
 SwiperCore.use([Autoplay, Navigation]);
 
@@ -150,12 +152,17 @@ class Startup extends Component {
             <div className="container">
               <NavbarBrand className="navbar-brand" href="/">
                 <span className="logo-light-mode">
-                  <img src={Logodark} className="l-dark" width="100px" alt="" />
+                  <img
+                    src={Logodark}
+                    className="l-dark"
+                    width="70px"
+                    alt="smart-ideation"
+                  />
                   <img
                     src={Logolight}
                     className="l-light"
-                    width="100px"
-                    alt=""
+                    width="70px"
+                    alt="smart-ideation"
                   />
                 </span>
                 <img src={Logolight} className="logo-dark-mode" alt="" />
@@ -209,18 +216,18 @@ class Startup extends Component {
                       Portfolio
                     </Link>
                   </NavItem>
-                  <NavItem>
+                  {/* <NavItem>
                     <Link
                       activeClass="active"
-                      to="pricing"
+                      to="features"
                       spy={true}
                       smooth={true}
                       duration={500}
                       className="nav-link"
                     >
-                      Pricing
+                      Features
                     </Link>
-                  </NavItem>
+                  </NavItem> */}
                   <NavItem>
                     <Link
                       activeClass="active"
@@ -236,13 +243,13 @@ class Startup extends Component {
                   <NavItem>
                     <Link
                       activeClass="active"
-                      to="blog"
+                      to="review"
                       spy={true}
                       smooth={true}
                       duration={500}
                       className="nav-link"
                     >
-                      Blog
+                      Reviews
                     </Link>
                   </NavItem>
                   <NavItem>
@@ -259,13 +266,13 @@ class Startup extends Component {
                   </NavItem>
                 </Nav>
 
-                <ul className="list-inline menu-social mb-0 ps-lg-4 ms-2">
+                {/* <ul className="list-inline menu-social mb-0 ps-lg-4 ms-2">
                   <li className="list-inline-item">
                     <a to="/auth-login" className="btn btn-primary">
                       Login
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </Collapse>
             </div>
           </nav>
@@ -299,10 +306,13 @@ class Startup extends Component {
                       <div className="col-12">
                         <div className="title-heading text-center">
                           <h1 className="display-5 text-white title-dark fw-bold mb-4">
-                          Welcome to  <br /> Smart Ideation
+                            Welcome to <br /> Smart Ideation
                           </h1>
                           <p className="para-desc mx-auto text-white-50">
-                          At Smart Ideation, we are dedicated to revolutionizing the world of technology through innovative software solutions and top-notch IT services
+                            At Smart Ideation, we are dedicated to
+                            revolutionizing the world of technology through
+                            innovative software solutions and top-notch IT
+                            services
                           </p>
 
                           <div className="mt-4 pt-2">
@@ -333,10 +343,13 @@ class Startup extends Component {
                       <div className="col-12">
                         <div className="title-heading text-center">
                           <h1 className="display-5 text-white title-dark fw-bold mb-4">
-                          Your Trusted Partner in <br /> Software and IT Services
+                            Your Trusted Partner in <br /> Software and IT
+                            Services
                           </h1>
                           <p className="para-desc mx-auto text-white-50">
-                          With a passionate team of experts, we embark on a journey to transform your digital dreams into reality.
+                            With a passionate team of experts, we embark on a
+                            journey to transform your digital dreams into
+                            reality.
                           </p>
 
                           <div className="mt-4 pt-2">
@@ -367,11 +380,12 @@ class Startup extends Component {
                       <div className="col-12">
                         <div className="title-heading text-center">
                           <h1 className="display-5 text-white title-dark fw-bold mb-4">
-                          Your Reliable Companion for <br />Cutting-Edge Software Solution
+                            Your Reliable Companion for <br />
+                            Cutting-Edge Software Solution
                           </h1>
                           <p className="para-desc mx-auto text-white-50">
-                          Explore our services, meet our team, and discover how we can help you achieve your goals.
-
+                            Explore our services, meet our team, and discover
+                            how we can help you achieve your goals.
                           </p>
 
                           <div className="mt-4 pt-2">
@@ -403,7 +417,7 @@ class Startup extends Component {
                           <div className="flex-1 ms-3">
                             <h5 className="mt-0">Web Development</h5>
                             <p className="text-muted mb-0">
-                            Crafting innovative web solutions for businesses
+                              Crafting innovative web solutions for businesses
                             </p>
                           </div>
                         </div>
@@ -431,7 +445,7 @@ class Startup extends Component {
                           <div className="flex-1 ms-3">
                             <h5 className="mt-0">UI/UX Design</h5>
                             <p className="text-muted mb-0">
-                            Intuitive UI/UX design elevating user experiences
+                              Intuitive UI/UX design elevating user experiences
                             </p>
                           </div>
                         </div>
@@ -445,7 +459,7 @@ class Startup extends Component {
                           <div className="flex-1 ms-3">
                             <h5 className="mt-0">Graphic Design</h5>
                             <p className="text-muted mb-0">
-                            Creative graphic design shaping visual narratives.
+                              Creative graphic design shaping visual narratives.
                             </p>
                           </div>
                         </div>
@@ -459,7 +473,8 @@ class Startup extends Component {
                           <div className="flex-1 ms-3">
                             <h5 className="mt-0">E-commerce</h5>
                             <p className="text-muted mb-0">
-                            Transforming commerce online with seamless e-commerce solutions
+                              Transforming commerce online with seamless
+                              e-commerce solutions
                             </p>
                           </div>
                         </div>
@@ -473,7 +488,8 @@ class Startup extends Component {
                           <div className="flex-1 ms-3">
                             <h5 className="mt-0">Digital Marketing</h5>
                             <p className="text-muted mb-0">
-                            Strategic digital marketing driving online success.
+                              Strategic digital marketing driving online
+                              success.
                             </p>
                           </div>
                         </div>
@@ -511,10 +527,16 @@ class Startup extends Component {
                   <div className="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
                     <div className="section-title">
                       <h4 className="title mb-3">
-                      Empowering Your Digital  <br /> Vision with Innovation
+                        Empowering Your Digital <br /> Vision with Innovation
                       </h4>
                       <p className="text-muted">
-                      Welcome to Smart  Ideation, where innovation meets technology to propel your digital dreams into reality. As a dynamic and forward-thinking startup, we are on a mission to revolutionize the software and IT services landscape. Our journey began in 2023, driven by a relentless passion for creativity, technology, and problem-solving
+                        Welcome to Smart Ideation, where innovation meets
+                        technology to propel your digital dreams into reality.
+                        As a dynamic and forward-thinking startup, we are on a
+                        mission to revolutionize the software and IT services
+                        landscape. Our journey began in 2023, driven by a
+                        relentless passion for creativity, technology, and
+                        problem-solving
                       </p>
                       <ul className="list-unstyled text-muted">
                         <li className="mb-1">
@@ -632,12 +654,14 @@ class Startup extends Component {
                 <div className="col">
                   <div className="section-title text-center">
                     <h4 className="title text-white mb-3">
-                      Ready to start your next web project now?
+                      Your Success is Our Priority
                     </h4>
                     <p className="text-white-50 mx-auto para-desc mb-0">
-                      Launch your campaign and benefit from our expertise on
-                      designing and managing conversion centered bootstrap v5
-                      html page.
+                      Our mission is simple yet profound - to empower
+                      businesses, large and small, with cutting-edge software
+                      solutions and IT services. We are committed to deliver
+                      innovative, tailor-made solutions that align perfectly
+                      with your unique needs.
                     </p>
 
                     <div className="mt-4 pt-2">
@@ -652,17 +676,23 @@ class Startup extends Component {
           </section>
           {/*  CTA End  */}
 
-          <AgencyProject />
+          {/* <AgencyProject /> */}
           <Pricing />
 
-          <section className="section overflow-hidden" id="team">
+          <section className=" overflow-hidden" id="team">
             <Container>
               <Row className="justify-content-center">
                 <div className="col-12">
                   <div className="section-title text-center mb-4 pb-2">
-                    <h4 className="title mb-3">Meet the Minds Behind Smart  Ideation</h4>
+                    <h4 className="title mb-3">
+                      Meet the Minds Behind Smart Ideation
+                    </h4>
                     <p className="para-desc mx-auto text-muted mb-0">
-                    Our journey wouldn't be possible without the dedication and expertise of our talented team. With a diverse group of professionals who share a common passion for technology, we bring a wealth of experience and creativity to every project
+                      Our journey wouldn&apos;t be possible without the
+                      dedication and expertise of our talented team. With a
+                      diverse group of professionals who share a common passion
+                      for technology, we bring a wealth of experience and
+                      creativity to every project
                     </p>
                   </div>
                 </div>
@@ -691,8 +721,9 @@ class Startup extends Component {
                         <div className="section-title text-center text-md-start mb-4 pb-2">
                           <h4 className="title mb-3">What Sets Us Apart</h4>
                           <p className="para-desc text-muted mx-auto mb-0">
-                          Innovation, Quality, and Customer-Centricity
-                          Smart  Ideation stands out in the industry for several key reasons
+                            Innovation, Quality, and Customer-Centricity Smart
+                            Ideation stands out in the industry for several key
+                            reasons
                           </p>
                         </div>
                       </div>
@@ -707,10 +738,10 @@ class Startup extends Component {
 
                           <div className="content flex-1 ms-3">
                             <a to="#" className="title h5 text-dark">
-                            Innovation
+                              Innovation
                             </a>
                             <p className="text-muted mt-2 mb-0">
-                            This prevents repetitive impairing the overall
+                              This prevents repetitive impairing the overall
                               facilitates the comparison.
                             </p>
                           </div>
@@ -728,8 +759,9 @@ class Startup extends Component {
                               Quality
                             </a>
                             <p className="text-muted mt-2 mb-0">
-                            We are uncompromising when it comes to quality. Our rigorous testing and quality assurance processes ensure that our solutions are robust.
-
+                              We are uncompromising when it comes to quality.
+                              Our rigorous testing and quality assurance
+                              processes ensure that our solutions are robust.
                             </p>
                           </div>
                         </div>
@@ -743,10 +775,12 @@ class Startup extends Component {
 
                           <div className="content flex-1 ms-3">
                             <a to="#" className="title h5 text-dark">
-                            Customer-Centricity
+                              Customer-Centricity
                             </a>
                             <p className="text-muted mt-2 mb-0">
-                            Your business needs are our top priority. We take the time to understand your challenges and objectives.
+                              Your business needs are our top priority. We take
+                              the time to understand your challenges and
+                              objectives.
                             </p>
                           </div>
                         </div>
@@ -764,7 +798,7 @@ class Startup extends Component {
             </div>
           </section>
 
-          <News />
+          <Review />
           <Contact />
           {/* Footer Start */}
           <footer className="bg-footer">
@@ -799,32 +833,32 @@ class Startup extends Component {
                         <ul className="list-unstyled footer-list mt-4">
                           <li>
                             <a to="#" className="text-foot">
-                              <i className="uil uil-angle-right-b me-1"></i>{" "}
-                              Financial Planning
+                              <i className="mdi mdi-greater-than me-1"></i> Web
+                              Development
                             </a>
                           </li>
                           <li>
                             <a to="#" className="text-foot">
-                              <i className="uil uil-angle-right-b me-1"></i>{" "}
-                              Software and Research
+                              <i className="mdi mdi-greater-than me-1"></i>{" "}
+                              Mobile App Development
                             </a>
                           </li>
                           <li>
                             <a to="#" className="text-foot">
-                              <i className="uil uil-angle-right-b me-1"></i>{" "}
-                              Business Services
+                              <i className="mdi mdi-greater-than me-1"></i>{" "}
+                              UI/UX Design
                             </a>
                           </li>
                           <li>
                             <a to="#" className="text-foot">
-                              <i className="uil uil-angle-right-b me-1"></i>{" "}
-                              Quality Resourcing
+                              <i className="mdi mdi-greater-than me-1"></i>{" "}
+                              Graphic Design
                             </a>
                           </li>
                           <li>
                             <a to="#" className="text-foot">
-                              <i className="uil uil-angle-right-b me-1"></i>{" "}
-                              Travel and Aviation
+                              <i className="mdi mdi-greater-than me-1"></i>{" "}
+                              E-commerce
                             </a>
                           </li>
                         </ul>
@@ -834,8 +868,9 @@ class Startup extends Component {
                         <h5 className="footer-head">Get In Touch</h5>
 
                         <p className="mt-4">
-                          C/54 Northwest Freeway, Suite <br />
-                          558, Houston, USA 485
+                          Office 201, 9C 13th commercial street,
+                          <br />
+                          D.H.A Phase 2 ext
                         </p>
                         <ul className="list-unstyled footer-list mt-3">
                           <li>
@@ -844,7 +879,7 @@ class Startup extends Component {
                               href="tel:+152534-468-854"
                               className="text-light"
                             >
-                              +152 534-468-854
+                              +92-306-9771-771
                             </a>
                           </li>
                           <li>
@@ -853,7 +888,7 @@ class Startup extends Component {
                               href="mailto:contact@example.com"
                               className="text-light"
                             >
-                              contact@example.com
+                              contact@smartideation.com
                             </a>
                           </li>
                         </ul>

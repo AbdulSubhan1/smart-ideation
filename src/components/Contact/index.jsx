@@ -106,7 +106,7 @@ class Contact extends Component {
                     <div className="flex-1 ms-3">
                       <h5 className="mb-2">Phone</h5>
                       <Link to="tel:+152534-468-854" className="text-muted">
-                        +152 534-468-854
+                        +92-306-9771-771
                       </Link>
                     </div>
                   </div>
@@ -119,10 +119,10 @@ class Contact extends Component {
                     <div className="flex-1 ms-3">
                       <h5 className="mb-2">Email</h5>
                       <Link
-                        to="mailto:contact@example.com"
+                        to="mailto:contact@smartideation.com"
                         className="text-muted"
                       >
-                        contact@example.com
+                        contact@smartideation.com
                       </Link>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ class Contact extends Component {
                     <div className="flex-1 ms-3">
                       <h5 className="mb-2">Location</h5>
                       <p className="text-muted mb-2">
-                        C/54 Northwest Freeway, Suite 558, Houston, USA 485
+                        Office 201, 9C 13th commercial street, D.H.A Phase 2 ext
                       </p>
                     </div>
                   </div>

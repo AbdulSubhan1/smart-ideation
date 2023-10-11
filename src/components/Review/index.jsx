@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import TinySlider from "tiny-slider-react";
-import { Col, Container, Row } from "reactstrap";
+import { Container, Row } from "reactstrap";
 
-import avatar1 from "../assets/images/client/01.jpg";
-import avatar2 from "../assets/images/client/02.jpg";
-import avatar3 from "../assets/images/client/03.jpg";
-import avatar4 from "../assets/images/client/04.jpg";
-import avatar5 from "../assets/images/client/05.jpg";
+import avatar1 from "../../assets/images/client/01.jpg";
+import avatar2 from "../../assets/images/client/02.jpg";
+import avatar3 from "../../assets/images/client/03.jpg";
+import avatar4 from "../../assets/images/client/04.jpg";
+import avatar5 from "../../assets/images/client/05.jpg";
 
-import Map from "../assets/images/map.png";
-import "tiny-slider/dist/tiny-slider.css";
+// import Map from "../../assets/images/map.png";
 
 const settings = {
   controls: false,
@@ -155,7 +154,7 @@ class Review extends Component {
             </Row>
           </Container>
 
-          <Container className="mt-100 mt-60">
+          {/* <Container className="mt-100 mt-60">
             <div
               className="py-5 px-4 bg-soft-primary rounded-lg"
               style={{
@@ -197,7 +196,7 @@ class Review extends Component {
                 </Col>
               </Row>
             </div>
-          </Container>
+          </Container> */}
         </section>
       </React.Fragment>
     );

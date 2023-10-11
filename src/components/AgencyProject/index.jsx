@@ -64,6 +64,26 @@ class AgencyProject extends Component {
           title: "Pen and article",
           subtext: "Article",
         },
+        {
+          image: Image5,
+          title: "Company V-card",
+          subtext: "V-card",
+        },
+        {
+          image: Image6,
+          title: "Mockup box with paints",
+          subtext: "Photography",
+        },
+        {
+          image: Image7,
+          title: "Coffee cup",
+          subtext: "Cups",
+        },
+        {
+          image: Image8,
+          title: "Pen and article",
+          subtext: "Article",
+        },
       ],
       isOpen: false,
       photoIndex: 0,
