@@ -15,7 +15,6 @@ import {
 import { Link } from "react-scroll";
 import CountUp from "react-countup";
 
-// import { Link as Link2 } from "react-router-dom";
 import * as Icon from "react-feather";
 import { Swiper, SwiperSlide } from "swiper/react";
 //ya files hain or bss ak yahi page ha idhar edit karna pare ga direact
@@ -1042,7 +1041,7 @@ class Startup extends Component {
         <ModalVideo
           channel="youtube"
           isOpen={this.state.videoModal}
-          videoId="yba7hPeTSjk"
+          videoId="mq508HXzccI"
           onClose={() => this.setState({ videoModal: false })}
         />
       </React.Fragment>

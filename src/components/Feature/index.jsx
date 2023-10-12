@@ -77,9 +77,9 @@ class Feature extends Component {
             <Row>
               <Col className="text-center">
                 <div className="mt-2 pt-2">
-                  <a to="#" className="btn btn-primary">
+                  <Link to="/products" className="btn btn-primary">
                     Explore <i className="mdi mdi-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </Col>
             </Row>
